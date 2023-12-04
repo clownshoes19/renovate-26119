@@ -1,0 +1,5 @@
+[versions]
+postgresql = { strictly = "[42.2.20,)" }
+
+[libraries]
+postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }

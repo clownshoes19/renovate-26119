@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchPackagePatterns": ["*"]
+    },
+    {
+      "matchManagers": ["maven"],
+      "matchUpdateTypes": ["minor", "patch"]
+    }
+  ]
+}
